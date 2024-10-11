@@ -67,13 +67,13 @@
         }
         
 
-        .logo{
+        /*.logo{
             position: absolute;
             width: 300px;
             right: 7rem;
             top: 12rem;
         }
-
+*/
 
         .texprin{
             position: relative;
@@ -94,7 +94,52 @@
             font-size: 1rem;
         }
       
+        @media only screen and (max-width: 400px) {
 
+            .container{
+            width: 90%;
+            height: 90%;
+            }
+
+
+        .texprin{
+            left: 2rem;
+            width: 100%; 
+        }
+
+        h1{
+           position: absolute; 
+           top: -9rem;
+           left: 2rem;
+           font-size: 35px;
+           width: 100%;
+        }
+
+        .por{
+            position: absolute;
+            top: -89px;
+            left: 18px;
+            color: rgb(0, 0, 0);
+            font-size: 25px;
+        }
+        
+       .fron{
+        position: relative;
+        font-size: 22px;
+        left: -15px;
+        top: -25px;
+       }
+
+       .htm{
+
+       border: #000000 2px solid;
+       position: absolute;
+       width: 50px;
+       font-size: 20px;
+        
+       }
+
+        }
 
  </style> 
 </head>
@@ -105,8 +150,8 @@
         <h1> <span class="barra" > < </span> Araceli <span class="barra"> /> </span></h1>
         <h2 class="por">Portfolio personal</h2> 
             <div class="texto">
-                <h2>Frontend Developer Junior </h2>
-                <h2> HTML | CSS | JS | NODEJS | DISEÑO GRAFICO</h2>  
+                <h2 class="fron">Frontend Developer Junior </h2>
+                <h2 class="htm"> HTML | CSS | JS | NODEJS | DISEÑO GRAFICO</h2>  
             </div>
                 <div class="botones">
                     <a href="https://www.linkedin.com/in/araceli-ruiz-44aaa1315/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
