@@ -13,6 +13,7 @@
             background-position: center;
             background-size: cover;
             height: 100vh;
+            overflow: hidden
         }
 
         .container{
@@ -142,14 +143,15 @@
         top: -25px;
        }
 
-       .htm{
+       .htm {
+        flex-direction: column;
+       }
 
-    
-        position: absolute;
-        width: 111px;
-        font-size: 25px;
+       .htm p {
+        position: relative;
+        font-size: 20px;
         left: -16px;
-        top: 90px;
+        top: 15px;
        }
 
   
@@ -162,13 +164,19 @@
 
         
 
-       .botones{
-         top: 28rem;
-         left: -56px;
-         
+       .botones {
+        border: #000000 2px solid; 
+        top: 5rem;   
+        
     }
+    .botones a{
+        padding-right: 1rem;
+        padding-left: 70px;
+        left: 0px; 
+    }
+
         .border{
-            top: 34rem;
+            top: 35rem;
             left: 180px;
         }
 
@@ -190,7 +198,7 @@
         <h2 class="por">Portfolio personal</h2> 
             <div class="texto">
                 <h2 class="fron">Frontend Developer Junior </h2>
-                <h2 class="htm"> <p> HTML |</p> <p> CSS |</p><p> JS |</p><p> NODEJS |</p><p>DISEÑO GRAFICO</p></h2>  
+                <h2 class="htm"> <p> HTML |</p> <p> CSS |</p><p> JS |</p><p> NODEJS |</p><p>DISEÑO GRAFICO |</p></h2>  
             </div>
                 <div class="botones">
                     <a href="https://www.linkedin.com/in/araceli-ruiz-44aaa1315/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
